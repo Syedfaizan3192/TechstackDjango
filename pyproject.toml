@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "techstackdjango"
+version = "0.1.0"
+description = ""
+authors = ["poetry"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.2.6"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.0"
+django-filter = "^23.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
